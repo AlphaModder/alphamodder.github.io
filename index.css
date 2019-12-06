@@ -130,3 +130,12 @@ section {
     margin-right: 5px;
     align-self: stretch;
 }
+
+.topics {
+    margin-top: 5px;
+    text-align: right;
+}
+
+.topic-list {
+    font-style: italic;
+}
