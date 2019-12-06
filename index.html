@@ -32,6 +32,7 @@
                         <a class="link" href="https://github.com/CCS-1L-F19/dbgm">on GitHub</a>
                     </header>
                     <p><code>dbgm</code> is a tool for managing a library of Windows desktop backgrounds, written in Rust and using bindings to the C/C++ UI toolkit <code>dear imgui</code>. Currently just the core functionality has been implemented. It can import backgrounds from folders on-disk and non-destructively crop them to best fit a particular screen resolution, and keeps track of various other metadata. The edited versions are then saved to a folder from which Windows can generate a slideshow.</p>
+                    <div class="topics">filed under: <span class="topic-list">tools, application development</span></div>
                 </div>
             </div>
             <div class="project">
@@ -43,7 +44,8 @@
                         <div class="separator-v"></div>
                         <a class="link" href="https://github.com/AlphaModder/rust-shiori">on GitHub</a>
                     </header>
-                    <p><code>rust-shiori</code> is a scripting framework for creating faux-AI characters that a user can interact, talk, and play with on their desktop, called "ghosts." It is built to work with <a href="http://ssp.shillest.net/">SakuraScript Player</a>, which implements a lower-level interface for the same purpose. The plugin interface is written in Rust, but currently most of the code is in the crate <code>rust-shiori-lua</code>, which provides a Lua runtime for ghost development on top of <code>rust-shiori</code>. I am in the process of developing my own ghost (shown in the picture) using <code>rust-shiori-lua</code>, but it is not yet polished enough for release.
+                    <p><code>rust-shiori</code> is a scripting framework for creating faux-AI characters that a user can interact, talk, and play with on their desktop, called "ghosts." It is built to work with <a href="http://ssp.shillest.net/">SakuraScript Player</a>, which implements a lower-level interface for the same purpose. The plugin interface is written in Rust, but currently most of the code is in the crate <code>rust-shiori-lua</code>, which provides a Lua runtime for ghost development on top of <code>rust-shiori</code>. I am in the process of developing my own ghost (shown in the picture) using <code>rust-shiori-lua</code>, but it is not yet polished enough for release.</p>
+                    <div class="topics">filed under: <span class="topic-list">interactive software, programming languages</span></div>
                 </div>
             </div>
             <div class="project">
@@ -56,6 +58,7 @@
                         <a class="link" href="https://github.com/AlphaModder/include-lua">on GitHub</a>
                     </header>
                     <p><code>include-lua</code> is a Rust library that allows a developer to embed a lua source tree into a Rust application binary. This tree can then be loaded into an <a href="https://github.com/kyren/rlua">rlua</a> context, and code imported from it via <code>require</code>. It was originally a component of <code>rust-shiori-lua</code>, but I spun it off into its own library.</p>
+                    <div class="topics">filed under: <span class="topic-list">libraries</span></div>
                 </div>
             </div>
             <div class="project">
@@ -68,6 +71,20 @@
                         <a class="link" href="https://github.com/AlphaModder/glauber-rs">on GitHub</a>
                     </header>
                     <p><code>glauber-rs</code> is my simulation of the <a href="https://en.wikipedia.org/wiki/Ising_model">Ising model</a> using Glauber dynamics. The Ising model is a simplified model of a ferromagnet based on a grid of spins, each of which can be up or down, and evolve according to a statistical process. This model replicates the behavior of real ferromagnets in that it exhibits a "Curie temperature." Above this temperature, the spins are mostly independent and display little order, while below it the spins fall into alignment with eachother, "magnetizing" the material. This abrupt change is known as a phase transition, and it is a common object of study in statistical mechanics. <code>glauber-rs</code> is designed to be modular, and could implement other simulations of a similar nature.</p>
+                    <div class="topics">filed under: <span class="topic-list">simulations, statistical mechanics</span></div>
+                </div>
+            </div>
+            <div class="project">
+                <img src="./project_img/chaos.png"></img>
+                <div>
+                    <header>
+                        <h2 class="adjust">A chaotic map</h2>
+                        <img src="https://img.shields.io/badge/status-complete-brightscreen"></src>
+                        <div class="separator-v"></div>
+                        <a class="link" href="https://www.shadertoy.com/view/4tKBWm">on Shadertoy</a>
+                    </header>
+                    <p>This was a just-for-fun project I took on to learn some GLSL and some math. It's a shader that displays a domain-colored image of an iterated function system over the complex plane. This produces quite the pretty and interesting fractal. By tweaking the parameters at the top of the code, one can explore different regions of the plane.</p>
+                    <div class="topics">filed under: <span class="topic-list">graphics programming, mathematics</span></div>
                 </div>
             </div>
             <div class="project">
@@ -79,6 +96,7 @@
                         <a class="link" href="https://github.com/AlphaModder/Ouroboros">on GitHub</a>
                     </header>
                     <p>Ouroboros is an experimental python library that allows one to import python modules into a namespace completely separate from the rest of an application, while still being able to call into their code with no IPC or other intermediary. An arbitrary number of such namespaces can be created, and further code imported by namespaced modules will remain in the namespace. Building it taught me a lot about the internals of cpython, and there is <a href="https://github.com/AlphaModder/Ouroboros/blob/master/README.md">a detailed technical breakdown in its README.</a></p>
+                    <div class="topics">filed under: <span class="topic-list">libraries, black magic</span></div>
                 </div>
             </div>
             <div class="project">
@@ -92,6 +110,7 @@
                         <a class="link" href="https://github.com/AlphaModder/space-email-api">on GitHub</a>
                     </header>
                     <p><code>space-email-api</code> is a Rust client for the website <a href="https://space.galaxybuster.net">Space Email</a>, "an indirect communication platform that allows for a unique exchange of conversation over space and time." It is implemented with the <code>hyper</code> library, and a fully-asynchronous version is in the works. <a href="https://github.com/AlphaModder/space_email_scraper"><code>space_email_scraper</code></a> is a tool of mine built with <code>space-email-api</code>.</p>
+                    <div class="topics">filed under: <span class="topic-list">libraries, tools</span></div>
                 </div>
             </div>
         </section>
