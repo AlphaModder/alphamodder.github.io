@@ -1,0 +1,54 @@
+body {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2em
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+#top { flex-direction: row; }
+
+#top h1 { 
+    font-size: 5em;
+    margin-top: -20px;
+}
+
+#top-text {
+    padding: 30px 0px;
+}
+
+#profile {
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+section {
+    margin: 0px 50px;
+}
+
+#about { flex-direction: row; }
+
+#projects { flex-direction: column; }
+
+#about h1 {
+    margin-top: -8px;
+    margin-right: 30px;
+}
+
+.project {
+    flex-direction: row;
+}
+
+.project > img {
+    flex: 2;
+    margin-right: 15px;
+    max-width: 20vw;
+}
+
+.project > div {
+    flex: 7;
+}
