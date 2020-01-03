@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block header %}
+<link rel="stylesheet" type="text/css" media="screen and (orientation: landscape)" href="/paginated/landscape.css">
+<link rel="stylesheet" type="text/css" media="screen and (orientation: portrait)" href="/paginated/portrait.css">
+<title>{{section.title}}</title>
+{% endblock header %}
+{% block content %}
+<section id="pages">
+    {% for page in section.pages %}
+        <div class="page">
+            {% if page.extra.thumbnail %}
+                {% if page.extra.clickthrough %} 
+                    {% set clickthrough = page.extra.clickthrough %}
+                {% else %}
+                    {% set clickthrough = page.permalink %}
+                {% endif %}
+                <a class="link" href="{{ page.extra.clickthrough }}">
+                    <img class="thumbnail" src="{{ page.extra.thumbnail }}"></img>
+                </a>
+            {% endif %}
+            <div class="page-content">
+                <div>{{ page.content | safe }}</div>
+                {% if section.extra.tag_taxonomy %}
+                <div class="tags">
+                    filed under:
+                    <span class="tag-list">{{ page.taxonomies[section.extra.tag_taxonomy] | join(sep=", ")}}</span>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+</section>
+{% endblock content %}

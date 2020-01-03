@@ -1,0 +1,15 @@
+@import url("./common.css");
+
+.page {
+    flex-direction: row;
+}
+
+.page img.thumbnail {
+    flex: 2;
+    margin-right: 15px;
+    max-width: 20vw;
+}
+
+.page-content {
+    flex: 7;
+}

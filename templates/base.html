@@ -1,0 +1,29 @@
+{% import "macros.html" as macros %}
+{% set base = config.base_url ~ "/" %}
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/styles.css">
+        <link rel="stylesheet" type="text/css" media="screen and (orientation: landscape)" href="/page/landscape.css">
+        <link rel="stylesheet" type="text/css" media="screen and (orientation: portrait)" href="/page/portrait.css">
+        <link rel="stylesheet" type="text/css" href="/misc.css">
+        {% block header %}
+        {% endblock header %}
+    </head>
+    <body>
+        <header>
+            <img id="profile" src="/profile.png"></img>
+            <div id="top-text">
+                <h1>Liam Foster</h1>
+                <h2>Software developer, student at UC Santa Barbara</h2>
+            </div>
+        </header>
+        <nav>
+            {{ macros::nav_item(label="About", url=base) }}
+            {{ macros::nav_item(label="Blog", url="") }}
+            {{ macros::nav_item(label="Portfolio", url=get_url(path="@/portfolio/_index.md")) }}
+            {{ macros::nav_item(label="Contact", url=get_url(path="@/contact.md")) }}
+        </nav>
+        {% block content %}
+        {% endblock content %}
+    </body>
+</html>

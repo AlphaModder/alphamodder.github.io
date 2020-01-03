@@ -1,0 +1,42 @@
+header {
+    padding-bottom: 10px;
+    display: flex;
+    border-bottom: 5px solid #1E1F1C;
+}
+
+#profile {
+    border-radius: 50%;
+    border: 5px solid #3E3D32;
+    flex: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #1E1F1C;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1em 0.75em;
+    transition: background-color 0.25s;
+}
+
+nav a:hover, nav a.current-page {
+    background-color: #3E3D32;
+}
+
+nav a.current-page {
+    font-weight: bold;
+}
+
+nav h2 {
+    font-size: 1.25em;
+}
+
+section {
+    padding: 10px;
+}
