@@ -1,0 +1,27 @@
+.page {
+    display: flex;
+    align-items: center;
+    background-color: #3E3D32;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 30px 0px;
+}
+
+.page img.thumbnail {
+    border: 5px solid #272822;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tags {
+    margin-top: 5px;
+    text-align: right;
+}
+
+.tag-list {
+    font-style: italic;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('./reset.css');
+
+body {
+    min-height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #272822;
+    color: #fff;
+    padding: 10px;
+}
+
+code {
+    font-family: "Consolas", monospace;
+}
+
+a {
+    color: #66D9EF;
+}
+
+i {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2em
+}
+
+h2 {
+    font-size: 1.5em;
+}

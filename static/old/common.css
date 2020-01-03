@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    min-height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #272822;
+    color: #fff;
+}
+
+code {
+    font-family: "Consolas", monospace;
+}
+
+a {
+    color: #66D9EF;
+}
+
+i {
+    font-style: italic;
+}
+
+#top {
+    padding-bottom: 10px;
+    display: flex;
+    border-bottom: 5px solid #1E1F1C;
+}
+
+section {
+    padding: 10px;
+    display: flex;
+}
+
+#profile {
+    border-radius: 50%;
+    border: 5px solid #3E3D32;
+    flex: 0;
+}
+
+.separator-h {
+    height: 5px;
+    background-color: #1E1F1C;
+    width: 100%;
+    flex: 5px 0 0;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    background-color: #3E3D32;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px 0px;
+}
+
+.project img.thumbnail {
+    border: 5px solid #272822;
+}
+
+.project header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.project header h2 {
+    margin-right: 5px;
+}
+
+.project header h2.adjust {
+    margin-top: -6px;
+}
+
+.project header img:not(:first-of-type) {
+    margin-left: 5px;
+}
+
+.separator-v {
+    width: 2px;
+    background-color: #272822;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-self: stretch;
+}
+
+.topics {
+    margin-top: 5px;
+    text-align: right;
+}
+
+.topic-list {
+    font-style: italic;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+}

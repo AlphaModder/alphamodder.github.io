@@ -1,0 +1,8 @@
+{% macro nav_item(label, url) %}
+    {% if page %} 
+        {% set permalink = page.permalink %} 
+    {% else %}
+        {% set permalink = section.permalink %}
+    {% endif %}
+    <a href='{{url}}' class="{% if permalink == url %}current-page{% endif %}" perm="{{permalink}}" curl="{{url}}"><h2>{{label}}</h2></a>
+{% endmacro nav_item %}
