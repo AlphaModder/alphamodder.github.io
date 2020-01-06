@@ -11,7 +11,7 @@ thumbnail = "./space_email.png"
 clickthrough = "https://github.com/AlphaModder/space_email_api"
 +++
 
-{{ project_header(adjust=-3, badges=[
+{{ project_header(adjust=-4, badges=[
     "https://img.shields.io/badge/status-actively maintained-brightgreen", "https://img.shields.io/crates/v/space-email-api.svg"
 ])}}
 
