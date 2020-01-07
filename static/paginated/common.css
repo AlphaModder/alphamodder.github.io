@@ -25,3 +25,7 @@
 .tag-list {
     font-style: italic;
 }
+
+#pages {
+    padding: 0px 10px;
+}

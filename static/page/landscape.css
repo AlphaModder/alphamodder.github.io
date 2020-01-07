@@ -1,4 +1,5 @@
 @import url("./common.css");
+@import url("./markdown/landscape.css");
 
 header { 
     flex-direction: row; 
@@ -14,10 +15,7 @@ header h1 {
 }
 
 #profile {
+    flex: 0;
     margin-right: 30px;
     margin-left: 15px;
-}
-
-section {
-    margin: 0px 50px;
 }
