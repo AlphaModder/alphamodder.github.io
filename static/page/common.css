@@ -1,5 +1,10 @@
+#upper {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
-    padding-bottom: 10px;
+    padding: 10px;
     display: flex;
     border-bottom: 5px solid #1E1F1C;
 }
@@ -7,7 +12,6 @@ header {
 #profile {
     border-radius: 50%;
     border: 5px solid #3E3D32;
-    flex: 0;
 }
 
 nav {
@@ -37,6 +41,33 @@ nav h2 {
     font-size: 1.25em;
 }
 
-section {
+#content {
     padding: 10px;
+    background-color: #3E3D32;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 30px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 5px solid #1E1F1C;
+    font-size: 0.75em;
+    padding: 0px 10px;
+}
+
+footer .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer img {
+    height: 2em;
+}
+
+footer p {
+    margin: 10px 0px;
 }

@@ -10,20 +10,28 @@
         {% endblock header %}
     </head>
     <body>
-        <header>
-            <img id="profile" src="/profile.png"></img>
-            <div id="top-text">
-                <h1>Liam Foster</h1>
-                <h2>Software developer, student at UC Santa Barbara</h2>
+        <div id="upper">
+            <header>
+                <img id="profile" src="/profile.png"></img>
+                <div id="top-text">
+                    <h1>Liam Foster</h1>
+                    <h2>Software developer, student at UC Santa Barbara</h2>
+                </div>
+            </header>
+            <nav>
+                {{ macros::nav_item(label="About", url=base) }}
+                {{ macros::nav_item(label="Blog", url="") }}
+                {{ macros::nav_item(label="Portfolio", url=get_url(path="@/portfolio/_index.md")) }}
+                {{ macros::nav_item(label="Contact", url=get_url(path="@/contact.md")) }}
+            </nav>
+            {% block content %}
+            {% endblock content %}
+        </div>
+        <footer>
+            <div class="left">
+                <a href="https://github.com/AlphaModder"><img src="/img/github-64px.png"/></a>
             </div>
-        </header>
-        <nav>
-            {{ macros::nav_item(label="About", url=base) }}
-            {{ macros::nav_item(label="Blog", url="") }}
-            {{ macros::nav_item(label="Portfolio", url=get_url(path="@/portfolio/_index.md")) }}
-            {{ macros::nav_item(label="Contact", url=get_url(path="@/contact.md")) }}
-        </nav>
-        {% block content %}
-        {% endblock content %}
+            <p>This site is built with <a href="https://www.getzola.org/">zola</a>.</p>
+        </footer>
     </body>
 </html>

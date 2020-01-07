@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 
-.project img.thumbnail {
+.page img.thumbnail {
     max-height: 20vh;
     margin-bottom: 15px;
 }
