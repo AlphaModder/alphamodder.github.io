@@ -20,7 +20,7 @@
             </header>
             <nav>
                 {{ macros::nav_item(label="About", url=base) }}
-                {{ macros::nav_item(label="Blog", url="") }}
+                {{ macros::nav_item(label="Blog", url=get_url(path="@/blog/_index.md")) }}
                 {{ macros::nav_item(label="Portfolio", url=get_url(path="@/portfolio/_index.md")) }}
                 {{ macros::nav_item(label="Contact", url=get_url(path="@/contact.md")) }}
             </nav>
