@@ -7,3 +7,14 @@
     margin-bottom: 0.5em;
     text-align: center;
 }
+
+.markdown code {
+    background: #272822;
+    padding: 2px 3px;
+    border-radius: 5px;
+}
+
+.markdown .md-center {
+    display: block;
+    text-align: center;
+}

@@ -41,7 +41,7 @@ nav h2 {
     font-size: 1.25em;
 }
 
-#content {
+section {
     padding: 10px;
     background-color: #3E3D32;
     border-radius: 20px;
