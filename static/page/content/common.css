@@ -1,0 +1,15 @@
+.content {
+    text-align: center;
+}
+
+.content p, pre {
+    text-align: left;
+}
+
+.content p:not(.fullwidth) {
+    max-width: 
+}
+
+.content pre {
+    display: inline-block; /* shrinkwrap contents */
+}

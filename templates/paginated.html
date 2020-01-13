@@ -18,7 +18,17 @@
             </a>
         {% endif %}
         <div class="page-content">
-            <div>{{ page.content | safe }}</div>
+            {% if section.extra.summarize %}
+                {% set content = page.summary %}
+            {% else %}
+                {% set content = page.content %}
+            {% endif %}
+            <div class="markdown">
+                {{ content | safe }}
+                {% if section.extra.summarize %}
+                    <a class="continue-reading" href="{{ page.permalink }}#continue-reading">[read more...]</a>
+                {% endif %}
+            </div>
             {% if section.extra.tag_taxonomy %}
             <div class="tags">
                 filed under:

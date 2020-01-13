@@ -25,3 +25,8 @@
 .tag-list {
     font-style: italic;
 }
+
+.continue-reading {
+    font-weight: bold;
+    text-decoration: none;
+}
