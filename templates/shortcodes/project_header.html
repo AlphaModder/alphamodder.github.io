@@ -1,5 +1,5 @@
 <div class="project-header">
     {% if not adjust %} {% set adjust=0 %} {% endif %}
-    <h1 style="margin-top: {{adjust}}px;">{{page.title}}</h1>
-    {% for badge in badges %}<img src="{{badge}}"/>{% endfor %}
+    <h1 class="md-custom" style="margin-top: {{adjust}}px;">{{page.title}}</h1>
+    {% for badge in badges %}<img class="md-custom" src="{{badge}}"/>{% endfor %}
 </div>

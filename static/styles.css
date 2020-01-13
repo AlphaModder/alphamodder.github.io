@@ -15,7 +15,7 @@ body {
     color: #fff;
 }
 
-code {
+code, pre {
     font-family: "Consolas", monospace;
 }
 
