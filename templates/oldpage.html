@@ -3,9 +3,7 @@
 <title>{{page.title}}</title>
 {% endblock header %}
 {% block content %}
-<section class="page-container">
-    <article class="content markdown">
-        {{ page.content | safe }}
-    </article>
+<section id="content" class="markdown">
+    {{ page.content | safe }}
 </section>
 {% endblock content %}

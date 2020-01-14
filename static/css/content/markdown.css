@@ -5,13 +5,12 @@
 .markdown h1:not(.md-custom) {
     font-weight: bold;
     margin-bottom: 0.5em;
-    /* text-align: center; */
 }
 
 .markdown h2:not(.md-custom) {
     font-weight: bold;
-    margin: 1em 0 0.5em 0;
-    /* text-align: center; */
+    margin-top: 1em;
+    margin-bottom: 0.5em;
     text-decoration: underline;
 }
 
