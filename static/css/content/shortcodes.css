@@ -13,9 +13,16 @@
     font-size: 1.5em;
 }
 
-.image-caption {
-    display: block;
+/* stupid hack to increase specificity */
+.image-container.image-container {
     text-align: center;
     font-weight: bold;
+    padding: 0.25em 0.5em 0.5em 0.5em;
+    background-color: #272822;
+    border-radius: 1em 1em 0 0;
+}
+
+.image-container img {
     margin-top: 0.25em;
 }
+

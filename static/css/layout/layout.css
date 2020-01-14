@@ -68,6 +68,9 @@ footer .left {
 }
 
 footer img {
+    background: white;
+    border-radius: 50%;
+    border: 2px solid white;
     height: 2em;
 }
 
