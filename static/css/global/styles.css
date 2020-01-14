@@ -1,3 +1,6 @@
+/* This file should contain styles that apply absolutely everywhere,
+setting the basic theme of the website. */
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('./reset.css');
 

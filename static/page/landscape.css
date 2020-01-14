@@ -24,7 +24,7 @@ header h1 {
     text-align: center;
 }
 
-#content p, pre {
+#content p, pre, h1, h2 {
     text-align: left;
 }
 
@@ -33,7 +33,7 @@ header h1 {
 }
 
 #content p:not(.fullwidth) {
-    max-width: 75vh;
+    max-width: 750px;
     margin-left: auto;
     margin-right: auto;
 }

@@ -1,0 +1,18 @@
+header { 
+    flex-direction: row; 
+}
+
+header h1 { 
+    font-size: 5em;
+    margin-top: -20px;
+}
+
+#top-text {
+    padding: 30px 0px;
+}
+
+#profile {
+    flex: 0;
+    margin-right: 30px;
+    margin-left: 15px;
+}
