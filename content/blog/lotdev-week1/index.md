@@ -59,4 +59,4 @@ float2 GetCameraFOV() {
 
 ## End of Week 1
 
-With a good-enough aesthetic, I'm now shifting my focus to the game's terrain generation, and starting by researching the terrain and ecology of the real world areas the setting is based on (chiefly the Chihuahuan Desert in New Mexico). If I do return to the dither, it will likely be to add some kind of selective local contrast (sharpening) effect, to further show the texture of materials.
+With a good-enough aesthetic, I'm now shifting my focus to the game's terrain generation, and starting by researching the terrain and ecology of the real world areas the setting is based on (chiefly the Chihuahuan Desert in New Mexico). If I do return to the dither, it will likely be to add some kind of selective local contrast (sharpening) effect, to further show the texture of materials. Until next time!
