@@ -1,0 +1,10 @@
+@import url("./common.css");
+
+.page {
+    flex-direction: column;
+}
+
+.page img.thumbnail {
+    max-height: 20vh;
+    margin-bottom: 15px;
+}

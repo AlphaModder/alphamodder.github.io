@@ -1,0 +1,43 @@
+/* This file should contain styles that apply absolutely everywhere,
+setting the basic theme of the website. */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('./reset.css');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-between;
+    background-color: #272822;
+    color: #fff;
+}
+
+code, pre {
+    font-family: "Consolas", monospace;
+}
+
+a {
+    color: #66D9EF;
+}
+
+i, em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em
+}
+
+h2 {
+    font-size: 1.5em;
+}

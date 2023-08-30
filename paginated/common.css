@@ -1,0 +1,32 @@
+.page {
+    display: flex;
+    align-items: center;
+}
+
+.page:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.page img.thumbnail {
+    border: 5px solid #272822;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tags {
+    margin-top: 5px;
+    text-align: right;
+}
+
+.tag-list {
+    font-style: italic;
+}
+
+.continue-reading {
+    font-weight: bold;
+    text-decoration: none;
+}

@@ -1,0 +1,32 @@
+.markdown p:not(.md-custom) {
+    margin-bottom: 1em;
+}
+
+.markdown h1:not(.md-custom) {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.markdown h2:not(.md-custom) {
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+}
+
+.markdown pre:not(.md-custom) {
+    background: #272822;
+    padding: 15px;
+    border-radius: 1.5vw;
+}
+
+.markdown .md-code-block code {
+    background: #272822;
+    padding: 2px 4px;
+    border-radius: 0.4vw;
+}
+
+.markdown .md-center {
+    display: block;
+    text-align: center;
+}
