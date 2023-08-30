@@ -1,4 +1,3 @@
-- Add Github links to Portfolio
 - Make paginate.html actually do what it says
 - Show dates on blog posts
 - Show projects and blog on homepage
